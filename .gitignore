@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Environment / secrets
+.env
+
+# Data — official documents and processed chunks can be large and/or
+# shouldn't be redistributed via git. Track structure with .gitkeep,
+# not the files themselves.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
