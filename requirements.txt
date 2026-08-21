@@ -1,2 +1,3 @@
-# Dependencies go here as we add them, step by step.
-# We're leaving this empty for now on purpose — see the explanation in chat.
+pypdf              # extract text from PDFs
+sentence-transformers  # local embedding models
+numpy              # store/manipulate embedding vectors
