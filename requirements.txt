@@ -1,3 +1,4 @@
 pypdf              # extract text from PDFs
 sentence-transformers  # local embedding models
 numpy              # store/manipulate embedding vectors
+ollama             # talk to the local Ollama server for answer generation
